@@ -1,80 +1,77 @@
 <html>
-    <head>
+  <head>
+    <link href="style.css" rel="stylesheet" />
+    <title>webpage</title>
+  </head>
+  <body>
+    <style></style>
+    <h1 style="color: blueviolet; background-color: palegoldenrod">My page</h1>
+    <h2 class="first">First line</h2>
 
-      <link href="style.css" rel="stylesheet">
-        <title>
-             webpage
-        </title>
-    </head>
-    <body >
-      <style> 
+    <h3>Second Line</h3>
 
+    <img
+      src="images/Google.jpg"
+      width="200"
+      height="300"
+      style="border: 6px solid brown"
+    />
+    <p class="p1" style="color: green">gcfhdjhflkcd;</p>
+    <h4>Third Line</h4>
+    <h5>Fourth Line</h5>
+    <h6>Fivth Line</h6>
 
-</style>
-      <h1 style="color:blueviolet; background-color:palegoldenrod">My page</h1>
-        <h2 class="first">First line</h2>
-        
-        
-        <h3>Second Line</h3>
+    <a href="https://www.google.com/"> GOOGLE </a>
+    <table>
+      <tr>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+      </tr>
+      <tr>
+        <td>jk</td>
+        <td>xyx</td>
+        <td>abs</td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>14</td>
+        <td>10</td>
+      </tr>
+    </table>
+    <ol>
+      <li>one</li>
+      <li>Two</li>
+      <li>Three</li>
+    </ol>
 
-        <img src="images/Google.jpg" width="200" height="300" style="border:6px solid brown;">
-        <p class="p1" style="color:green;">
-          
-         gcfhdjhflkcd;
-            
-        </p>
-        <h4>Third Line</h4>
-        <h5>Fourth Line</h5>
-        <h6>Fivth Line</h6>
-        
-        <a href ="https://www.google.com/"> 
-        
-            GOOGLE </a>
-            <table>
-                <tr>
-                  <th>1</th>
-                  <th>2</th>
-                  <th>3</th>
-                </tr>
-                <tr>
-                  <td>jk</td>
-                  <td>xyx</td>
-                  <td>abs</td>
-                </tr>
-                <tr>
-                  <td>16</td>
-                  <td>14</td>
-                  <td>10</td>
-                </tr>
-              </table>
-              <ol>
-                <li>one</li>
-                <li>Two</li>
-                <li>Three</li>
-              </ol>
-              
-              <form action="/action_page.php">
-                <label for="fname">First name:</label>
-                <input type="text" id="fname" name="fname"><br><br>
-                <label for="lname">Last name:</label>
-                <input type="text" id="lname" name="lname"><br><br>
-                <input type="submit" value="submit">
-                <input type="submit" formtarget="_blank" value="Submit to a new window/tab">
-              </form>
-              
-    
-            <p>CHOOSE YOUR LANGUAGE : </p>
+    <form action="/action_page.php">
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname" /><br /><br />
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname" /><br /><br />
+      <input type="submit" value="submit" />
+      <input
+        type="submit"
+        formtarget="_blank"
+        value="Submit to a new window/tab"
+      />
+    </form>
 
-            <form>
-              <input type="radio" id="html" name="fav_language" value="HTML">
-              <label for="html">HTML</label><br>
-              <input type="radio" id="css" name="fav_language" value="CSS">
-              <label for="css">CSS</label><br>
-              <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-              <label for="javascript">JAVASCRIPT</label>
-            </form>
-    
-        </body>
+    <p>CHOOSE YOUR LANGUAGE :</p>
+
+    <form>
+      <input type="radio" id="html" name="fav_language" value="HTML" />
+      <label for="html">HTML</label><br />
+      <input type="radio" id="css" name="fav_language" value="CSS" />
+      <label for="css">CSS</label><br />
+      <input
+        type="radio"
+        id="javascript"
+        name="fav_language"
+        value="JavaScript"
+      />
+      <label for="javascript">JAVASCRIPT</label>
+    </form>
+  </body>
 </html>
-
-
